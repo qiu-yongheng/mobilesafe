@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mobilsafe</string>
+    <string name="url">http://192.168.34.164:8080/info.json</string>
+    <string name="urlupdate">http://192.168.34.164:8080/update.txt</string>
+    <string name="sample_device_admin">高级管理员权限</string>
+    <string name="sample_device_admin_description">使用高级管理员权限</string>
+</resources>

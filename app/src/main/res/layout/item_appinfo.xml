@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_appIcon"
+        android:layout_width="50dp"
+        android:src="@drawable/app"
+        android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:text="应用程序"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/iv_appIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_app_location"
+        android:layout_width="wrap_content"
+        android:text="手机内存"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp"
+        android:textColor="#666"
+        android:layout_toRightOf="@id/iv_appIcon"
+        android:layout_below="@id/tv_app_name"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_app_size"
+        android:textColor="#073bd5"
+        android:textSize="18sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:text="12mb"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

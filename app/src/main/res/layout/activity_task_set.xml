@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:gaga="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:text="进程管理设置"
+        style="@style/common_title"/>
+    <com.a520it.mobilsafe.ui.SetCb
+        android:id="@+id/ui_task_showsysm"
+        gaga:bigtitle="显示系统进程"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.a520it.mobilsafe.ui.SetCb>
+
+    <com.a520it.mobilsafe.ui.SetCb
+        android:id="@+id/ui_task_closeclean"
+        gaga:bigtitle="锁屏清理进程"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.a520it.mobilsafe.ui.SetCb>
+</LinearLayout>

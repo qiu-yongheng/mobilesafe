@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Mobilsafe.iml" filepath="$PROJECT_DIR$/Mobilsafe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chouti/chouti.iml" filepath="$PROJECT_DIR$/chouti/chouti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/getaddress/getaddress.iml" filepath="$PROJECT_DIR$/getaddress/getaddress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloworld/helloworld.iml" filepath="$PROJECT_DIR$/helloworld/helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lancher/lancher.iml" filepath="$PROJECT_DIR$/lancher/lancher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycache/mycache.iml" filepath="$PROJECT_DIR$/mycache/mycache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pupuwindow/pupuwindow.iml" filepath="$PROJECT_DIR$/pupuwindow/pupuwindow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocket/rocket.iml" filepath="$PROJECT_DIR$/rocket/rocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supermanager/supermanager.iml" filepath="$PROJECT_DIR$/supermanager/supermanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toasttest/toasttest.iml" filepath="$PROJECT_DIR$/toasttest/toasttest.iml" />
+    </modules>
+  </component>
+</project>

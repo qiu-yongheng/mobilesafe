@@ -1,0 +1,1 @@
+include ':app', ':supermanager', ':getaddress', ':toasttest', ':rocket', ':pupuwindow', ':lancher', ':chouti', ':helloworld', ':mycache'

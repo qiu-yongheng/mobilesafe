@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:gaga="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+    >
+
+    <TextView
+    style="@style/common_title"
+    android:text="手机设置"/>
+
+    <com.a520it.mobilsafe.ui.SetCb
+        android:id="@+id/ui_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        gaga:bigtitle = "关闭自动更新">
+    </com.a520it.mobilsafe.ui.SetCb>
+
+    <com.a520it.mobilsafe.ui.SetCb
+        android:id="@+id/ui_blackphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        gaga:bigtitle = "开启黑名单拦截">
+    </com.a520it.mobilsafe.ui.SetCb>
+
+    <com.a520it.mobilsafe.ui.SetCb
+        android:id="@+id/ui_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        gaga:bigtitle = "来电归属地显示">
+    </com.a520it.mobilsafe.ui.SetCb>
+
+    <com.a520it.mobilsafe.ui.ShowChangerView
+        android:id="@+id/show_changer_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        gaga:addressstyle="号码归属地显示风格"
+        gaga:themestyle="活力橙"
+        android:onClick="changeAddressTheme"
+        >
+    </com.a520it.mobilsafe.ui.ShowChangerView>
+
+    <com.a520it.mobilsafe.ui.SetCb
+        android:id="@+id/ui_watchdog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        gaga:bigtitle = "开启看门狗">
+    </com.a520it.mobilsafe.ui.SetCb>
+</LinearLayout>

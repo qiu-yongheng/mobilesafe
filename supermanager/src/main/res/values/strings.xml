@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SuperManager</string>
+    <string name="sample_device_admin_description">高级管理员</string>
+    <string name="sample_device_admin">获取权限</string>
+</resources>

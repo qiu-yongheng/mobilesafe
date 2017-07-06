@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:onClick="startAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启管理员权限"/>
+
+    <Button
+        android:onClick="myClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="远程锁屏"/>
+
+    <Button
+        android:onClick="uninstallApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="卸载应用程序"/>
+</LinearLayout>

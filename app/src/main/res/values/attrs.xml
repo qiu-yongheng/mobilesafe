@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SetCb">
+        <attr name="bigtitle" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="ShowChangerView">
+        <attr name="addressstyle" format="string"/>
+        <attr name="themestyle" format="string"/>
+    </declare-styleable>
+</resources>

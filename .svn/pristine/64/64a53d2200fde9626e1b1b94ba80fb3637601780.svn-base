@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\asworkspace\Mobilsafe\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="E:\asworkspace\Mobilsafe\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_eea6945c4dd807453607da377401c79ea3a92f24.jar" />
+    </item>
+    <item
+        jar="E:\asworkspace\Mobilsafe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="E:\asworkspace\Mobilsafe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.1.0_22f8db7461f1eefd3877b824c43d3857885ba6a7.jar" />
+    </item>
+    <item
+        jar="E:\asworkspace\Mobilsafe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="E:\asworkspace\Mobilsafe\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_0d565ac724a91c9984a9c0bd975e3ad8b2a3c1eb.jar" />
+    </item>
+    <item
+        jar="E:\asworkspace\Mobilsafe\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="E:\asworkspace\Mobilsafe\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.3.0_ada673dc1c8284e7eee13a345ab402e2cfb681bf.jar" />
+    </item>
+    <item
+        jar="E:\asworkspace\Mobilsafe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="E:\asworkspace\Mobilsafe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.1.0_e4bade60054cc9f9a8c06007bf87baed50ba378d.jar" />
+    </item>
+    <item
+        jar="D:\Android\newsdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="E:\asworkspace\Mobilsafe\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_00fd570ccd120ed77e58675892a0f4d1b6194c6d.jar" />
+    </item>
+    <item
+        jar="E:\asworkspace\Mobilsafe\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="85627237983355e8b2f759454ca22827557f4a08">
+        <dex dex="E:\asworkspace\Mobilsafe\app\build\intermediates\pre-dexed\debug\instant-run_06528cffdd7b184a12197f83ea1a1a14ebed60d2.jar" />
+    </item>
+    <item
+        jar="E:\asworkspace\Mobilsafe\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="E:\asworkspace\Mobilsafe\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.3.0_2c2e99bf58f17f2fe8620c4c36964b8c10e3df40.jar" />
+    </item>
+    <item
+        jar="E:\asworkspace\Mobilsafe\app\libs\xUtils-2.6.14.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="E:\asworkspace\Mobilsafe\app\build\intermediates\pre-dexed\debug\xUtils-2.6.14_f0bd659771dd65caf23eef1d6f7e6be6153ffd58.jar" />
+    </item>
+    <item
+        jar="E:\asworkspace\Mobilsafe\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="09e639ecf2a74f6ccc868372ffe58cd60efae1bb">
+        <dex dex="E:\asworkspace\Mobilsafe\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_a80ec7dd13c6eb1aa41cd866e4c2ee69914e1831.jar" />
+    </item>
+    <item
+        jar="E:\asworkspace\Mobilsafe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="E:\asworkspace\Mobilsafe\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.3.0_70bc9811f15b959829a0a856a8c4071b6a81fa74.jar" />
+    </item>
+
+</items>

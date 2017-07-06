@@ -1,0 +1,56 @@
+package com.a520it.mobilsafe.activity;
+
+import android.app.Activity;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.RelativeLayout;
+
+import com.a520it.mobilsafe.R;
+import com.a520it.mobilsafe.ui.SetCb;
+
+public class SetActivity extends Activity {
+    private SharedPreferences sp;
+    private RelativeLayout rl_set;
+    private SetCb ui_set;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_set);
+
+        sp= getSharedPreferences("config", MODE_PRIVATE);
+
+        //获取控件
+        rl_set = (RelativeLayout) findViewById(R.id.rl_set);
+        ui_set = (SetCb) findViewById(R.id.ui_set);
+
+        //设置控件默认没有选中
+        ui_set.setChecked(sp.getBoolean("update", false));
+
+        //给整个RL控件设置点击事件
+        rl_set.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //创建一个编辑器对象
+                SharedPreferences.Editor edit = sp.edit();
+
+                //判断checkBox是否被选中
+                if (ui_set.isChecked()) {
+                    //没被选中
+                    ui_set.setChecked(false);
+
+                    //设置sp
+                    edit.putBoolean("update", false);
+                } else {
+                    //被选中
+                    ui_set.setChecked(true);
+
+                    edit.putBoolean("update", true);
+                }
+                //提交
+                edit.commit();
+            }
+        });
+    }
+}

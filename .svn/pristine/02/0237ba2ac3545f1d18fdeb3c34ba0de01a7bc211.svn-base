@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:gaga="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+    >
+
+    <TextView
+        style="@style/common_title"
+        android:text="手机设置"/>
+
+    <com.a520it.mobilsafe.ui.SetCb
+        android:id="@+id/ui_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        gaga:bigtitle = "关闭自动更新"
+        >
+    </com.a520it.mobilsafe.ui.SetCb>
+</LinearLayout>
